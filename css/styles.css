@@ -1,0 +1,126 @@
+body{
+	color:blue;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	text-align:left;
+	padding:10px;
+	font-size:30px;
+	background-attachment:fixed;
+	background:url("../images/background-01.jpg");
+	background-size:cover;
+}
+.validationimg{
+	width:25px;
+	height:20px;
+	margin-left:10px;
+	display:none;
+}
+form {
+    background-color:white;
+	width:800px;
+	margin:auto;
+}
+#headphoto{
+	width:100%;
+	margin:0px;
+	padding:0px;
+	border:0px;
+	height:300px;
+}
+.word{
+	left:20px;
+	/* top:0px; */
+	float:left;
+	position:absolute;
+	color:green;
+	font-size:45px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:oblique;
+	font-weight:bold;
+}
+.box{
+	position:relative;
+	width:800px;
+	height:300px;
+}
+.box img{
+	background:url("../images/headphoto.jpg");
+	width:800px;
+	height:300px;
+	background-size:cover;
+}
+fieldset{
+	padding:20px;
+}
+h1 {
+    color: lightblue;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 80px;
+}
+input[type=text],input[type=email],input[type=date],input[type=file],select{
+	color:gray;
+	padding:5px;
+	border-radius:8px;
+	border:1px solid;
+	width:229px;
+	height:40px;
+}
+#recommendation{
+	color:gray;
+	padding:5px;
+	border-radius:8px;
+	border:1px solid;
+	width:550px;
+	height:150px;
+	overflow:scroll;
+}
+.div1{
+	color:orange;
+	margin-top:20px;
+}
+button{
+	background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+}
+table{
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size:30px;
+}
+label.error{
+	color:red;
+	font-size:16px;
+}
+.warningimg{
+	width:16px;
+	height:16px;
+	display:none;
+	margin-left:8px;
+	float:right;
+	margin-right:460px;
+    margin-top:5px;
+}
+#textareaimg{
+	width:16px;
+	height:16px;
+	display:none;
+	margin-left:8px;
+	float:right;
+	margin-right:160px;
+    margin-top:5px;
+}
+#sucwarning{
+	text-align:center;
+	font-size:80px;
+	color:black;
+}
+#secondForm{
+	background:url("../images/success.jpg") no-repeat;
+	background-size:cover;
+}
